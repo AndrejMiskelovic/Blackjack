@@ -1,0 +1,69 @@
+Two Hearts,Two Clubs,Three Diamonds,Queen Diamonds,Five Spades,25.53
+Two Diamonds,Ten Diamonds,Ace Spades,Four Hearts
+Player Bust
+Ten Spades,Four Diamonds,Six Diamonds,Jack Hearts,8.33
+Jack Spades,Five Clubs,Ace Hearts,Ten Diamonds
+Player Bust
+Nine Hearts,Ace Spades,6.12
+Seven Hearts,Ace Diamonds
+Player Wins
+Six Spades,Five Spades,King Diamonds,8.33
+Queen Diamonds,Two Hearts,Seven Diamonds
+Player Wins
+Two Diamonds,Eight Diamonds,Four Clubs,Ten Diamonds,52.08
+Ace Hearts,Seven Hearts
+Player Bust
+Jack Hearts,Nine Spades,Seven Clubs,16.33
+Jack Diamonds,Jack Clubs
+Player Bust
+Jack Diamonds,Queen Diamonds,Eight Spades,8.16
+King Diamonds,Queen Spades
+Player Bust
+Eight Diamonds,Four Diamonds,Ace Diamonds,Ten Hearts,60.42
+Nine Diamonds,Four Clubs,Jack Clubs
+Player Bust
+Seven Clubs,Two Diamonds,Ace Diamonds,Queen Hearts,Two Clubs,6.25
+Queen Spades,Ace Hearts
+Player Bust
+Seven Hearts,King Diamonds,Ten Clubs,32.65
+Queen Spades,Nine Clubs
+Player Bust
+Six Diamonds,Ten Spades,Six Spades,40.82
+King Spades,Seven Clubs
+Player Bust
+Five Diamonds,Queen Clubs,Ace Spades,Five Clubs,37.5
+Six Spades,Nine Clubs,Seven Clubs
+Player Wins
+King Diamonds,Jack Diamonds,8.16
+Seven Hearts,Two Clubs,Ten Hearts
+Player Wins
+Three Diamonds,Ten Hearts,Four Hearts,27.08
+Ace Hearts,Two Hearts,Nine Diamonds,Ace Spades,Jack Hearts
+Player Wins
+Seven Spades,Two Spades,Eight Diamonds,Queen Clubs,31.25
+Nine Hearts,Ten Spades
+Player Bust
+Five Hearts,Four Clubs,Ten Clubs,16.33,Stand
+Five Diamonds,Ten Spades,Seven Hearts
+Player Wins
+Two Hearts,Seven Clubs,Queen Hearts,14.58,Stand
+Five Clubs,Two Diamonds,Queen Spades
+Player Wins
+King Diamonds,Seven Spades,32.65,Stand
+Six Diamonds,Eight Diamonds,Two Clubs,Ace Diamonds
+Player and Dealer Push
+Ten Hearts,Nine Spades,16.33,Stand
+Six Spades,Two Spades,Three Hearts,Nine Diamonds
+Dealer Wins
+Queen Clubs,Ten Diamonds,8.16,Stand
+Seven Diamonds,Nine Hearts,Three Spades
+Player Wins
+Queen Hearts,Seven Diamonds,Jack Hearts,32.65,Stand
+Jack Spades,Jack Diamonds
+Player Bust
+King Hearts,Two Diamonds,69.39,Hit
+Five Spades,Four Clubs,Five Clubs,Seven Spades
+Dealer Wins
+Queen Diamonds,Two Clubs,Seven Diamonds,12.5,Stand
+Two Hearts,Seven Hearts,Nine Diamonds
+Player Wins

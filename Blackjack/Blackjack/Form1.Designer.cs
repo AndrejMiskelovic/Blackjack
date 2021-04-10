@@ -35,7 +35,11 @@
             this.Stand = new System.Windows.Forms.Button();
             this.Surrender = new System.Windows.Forms.Button();
             this.Double = new System.Windows.Forms.Button();
-            this.Help = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -65,7 +69,7 @@
             // 
             // Hit
             // 
-            this.Hit.Location = new System.Drawing.Point(9, 243);
+            this.Hit.Location = new System.Drawing.Point(12, 261);
             this.Hit.Name = "Hit";
             this.Hit.Size = new System.Drawing.Size(75, 23);
             this.Hit.TabIndex = 4;
@@ -75,7 +79,7 @@
             // 
             // Stand
             // 
-            this.Stand.Location = new System.Drawing.Point(90, 243);
+            this.Stand.Location = new System.Drawing.Point(93, 261);
             this.Stand.Name = "Stand";
             this.Stand.Size = new System.Drawing.Size(75, 23);
             this.Stand.TabIndex = 5;
@@ -85,7 +89,7 @@
             // 
             // Surrender
             // 
-            this.Surrender.Location = new System.Drawing.Point(171, 243);
+            this.Surrender.Location = new System.Drawing.Point(174, 261);
             this.Surrender.Name = "Surrender";
             this.Surrender.Size = new System.Drawing.Size(75, 23);
             this.Surrender.TabIndex = 6;
@@ -95,7 +99,7 @@
             // 
             // Double
             // 
-            this.Double.Location = new System.Drawing.Point(252, 243);
+            this.Double.Location = new System.Drawing.Point(255, 261);
             this.Double.Name = "Double";
             this.Double.Size = new System.Drawing.Size(75, 23);
             this.Double.TabIndex = 7;
@@ -103,19 +107,57 @@
             this.Double.UseVisualStyleBackColor = true;
             this.Double.Click += new System.EventHandler(this.Double_Click);
             // 
-            // Help
+            // panel1
             // 
-            this.Help.Location = new System.Drawing.Point(294, 67);
-            this.Help.Name = "Help";
-            this.Help.Size = new System.Drawing.Size(100, 20);
-            this.Help.TabIndex = 8;
+            this.panel1.Location = new System.Drawing.Point(15, 303);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(515, 112);
+            this.panel1.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 287);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 13);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Player Hand";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 418);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Dealer Hand";
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(15, 434);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(515, 112);
+            this.panel3.TabIndex = 15;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 240);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Help";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 273);
-            this.Controls.Add(this.Help);
+            this.ClientSize = new System.Drawing.Size(536, 551);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.Double);
             this.Controls.Add(this.Surrender);
             this.Controls.Add(this.Stand);
@@ -125,6 +167,7 @@
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,7 +182,11 @@
         private System.Windows.Forms.Button Stand;
         private System.Windows.Forms.Button Surrender;
         private System.Windows.Forms.Button Double;
-        private System.Windows.Forms.TextBox Help;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label3;
     }
 }
 

@@ -44,14 +44,22 @@ namespace Blackjack
             {
                 foreach (var item2 in Hand)
                 {
-                    if(deck.cards[i].Face == item2.Face && deck.cards[i].Suit == item2.Suit)
+                    if (i < deck.cards.Count)
                     {
-                        deck.cards.RemoveAt(i);
+                        if (deck.cards[i].Face == item2.Face && deck.cards[i].Suit == item2.Suit)
+                        {
+                            deck.cards.RemoveAt(i);
+                            
+                        }
                     }
                 }
-                if (deck.cards[i].Face == Dealer.RevealedCards[0].Face && deck.cards[i].Suit == Dealer.RevealedCards[0].Suit)
+                if (i < deck.cards.Count)
                 {
-                    deck.cards.RemoveAt(i);
+                    if (deck.cards[i].Face == Dealer.RevealedCards[0].Face && deck.cards[i].Suit == Dealer.RevealedCards[0].Suit)
+                    {
+                        deck.cards.RemoveAt(i);
+                   
+                    }
                 }
             }          
             foreach (var item in deck.cards)
@@ -60,8 +68,8 @@ namespace Blackjack
                 {
                     cardn++;
                 }
-            }
-            return ((double)cardn / (double)deck.cards.Count)*100;
+            }         
+            return Math.Round((((double)cardn / (double)deck.cards.Count) * 100), 2);
         }
         /// <summary>
         /// Remove top 2 cards of Deck and turn it into a list.
